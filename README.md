@@ -4,7 +4,7 @@ A collection of [Agent Skills](https://agentskills.io) for cybersecurity profess
 
 ## Overview
 
-This repository contains two categories of skills:
+This repository contains three categories of skills:
 
 ### Baseline Skills
 Core utility skills for document processing and general tasks:
@@ -22,6 +22,24 @@ Specialized skills for security operations:
 - **threat-intelligence** - CTI gathering, IOC extraction, and threat analysis
 - **vulnerability-management** - Vulnerability assessment and remediation tracking
 - **grc** - Governance, Risk, and Compliance documentation and assessments
+
+### Penetration Testing Skills
+Comprehensive skills for authorized penetration testing:
+- **reconnaissance** - OSINT and information gathering techniques
+- **network-scanning** - Network discovery, port scanning, service enumeration
+- **web-app-testing** - Web application security testing (OWASP methodology)
+- **api-security-testing** - REST, GraphQL, and API security assessment
+- **exploitation** - Payload generation and exploit development
+- **post-exploitation** - Privilege escalation, lateral movement, persistence
+- **password-attacks** - Hash cracking, password spraying, brute force
+- **wireless-security** - WiFi and Bluetooth security testing
+- **social-engineering** - Phishing campaigns, pretexting, physical security
+- **active-directory-testing** - AD enumeration, Kerberos attacks, domain exploitation
+- **cloud-security-testing** - AWS, Azure, GCP security assessment
+- **mobile-app-testing** - Android and iOS application security testing
+- **container-security** - Docker and Kubernetes security assessment
+- **red-team-operations** - Adversary emulation and operation management
+- **pentest-reporting** - Professional report generation and documentation
 
 ## Quick Start
 
@@ -63,12 +81,28 @@ agentskills/
 │   │   ├── pdf/
 │   │   ├── research/
 │   │   └── image-generation/
-│   └── cybersecurity/           # Domain-specific skills
-│       ├── soc-operations/
-│       ├── incident-response/
-│       ├── threat-intelligence/
-│       ├── vulnerability-management/
-│       └── grc/
+│   ├── cybersecurity/           # Domain-specific skills
+│   │   ├── soc-operations/
+│   │   ├── incident-response/
+│   │   ├── threat-intelligence/
+│   │   ├── vulnerability-management/
+│   │   └── grc/
+│   └── pentesting/              # Penetration testing skills
+│       ├── reconnaissance/
+│       ├── network-scanning/
+│       ├── web-app-testing/
+│       ├── api-security-testing/
+│       ├── exploitation/
+│       ├── post-exploitation/
+│       ├── password-attacks/
+│       ├── wireless-security/
+│       ├── social-engineering/
+│       ├── active-directory-testing/
+│       ├── cloud-security-testing/
+│       ├── mobile-app-testing/
+│       ├── container-security/
+│       ├── red-team-operations/
+│       └── pentest-reporting/
 └── templates/
     └── skill-template/          # Template for creating new skills
 ```
@@ -145,6 +179,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for:
 - Generate compliance assessment reports
 - Create policy documents from templates
 - Track control implementations and gaps
+
+### Penetration Testing
+- Conduct comprehensive security assessments
+- Perform web application and API security testing
+- Execute Active Directory and cloud security assessments
+- Generate professional penetration test reports
+- Manage red team operations and adversary simulation
 
 ## License
 
